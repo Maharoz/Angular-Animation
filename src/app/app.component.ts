@@ -129,4 +129,12 @@ export class AppComponent {
       this.list.splice(itemToBeDeleted,1);
       
     }
+
+    animationStarted(event){
+      console.log(event);
+    }
+
+    animationEnded(event){
+      console.log(event);
+    }
 }
